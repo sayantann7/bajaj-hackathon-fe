@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { apiClient, type Document, type QueryResult, type Stats } from '../lib/api';
 
-const API_BASE_URL = 'http://localhost:3000';
+const API_BASE_URL = 'http://209.38.122.127:3000';
 
 export default function Home() {
   const [documents, setDocuments] = useState<Document[]>([]);
