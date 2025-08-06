@@ -1,5 +1,5 @@
 // API configuration and utilities
-export const API_BASE_URL = 'http://localhost:3000';
+export const API_BASE_URL = 'http://209.38.122.127:3000';
 
 // API client with error handling
 export class ApiClient {
